@@ -1,0 +1,28 @@
+{
+  "name": "fefwd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist/ && mkdirp dist/",
+    "build": "dato dump",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voorhoede/fefwd.git"
+  },
+  "keywords": [],
+  "author": "Jasper Moelker <jasper@voorhoede.nl> (https://voorhoede.nl/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voorhoede/fefwd/issues"
+  },
+  "homepage": "https://github.com/voorhoede/fefwd#readme",
+  "devDependencies": {
+    "dotenv-safe": "^6.0.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "voorhoede-datocms-client": "^0.5.2"
+  }
+}
